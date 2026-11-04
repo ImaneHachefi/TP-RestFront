@@ -1,0 +1,6 @@
+services:
+  client:
+    build: .
+    container_name: account-client
+    ports:
+      - "3001:80"
